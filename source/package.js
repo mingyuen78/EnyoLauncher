@@ -1,0 +1,11 @@
+enyo.depends(
+	"$lib/layout",
+	"$lib/onyx",	
+	"$lib/com",
+	"$lib/util",
+	"ui",
+	"dashboard",
+	"header",
+	"footer",
+	"App.js"
+);

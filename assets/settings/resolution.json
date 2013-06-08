@@ -1,0 +1,42 @@
+[
+	{
+		"name":"320 x 480",
+		"width":320,
+		"height":480
+	},
+	{
+		"name":"480 x 320",
+		"width":480,
+		"height":320
+	},
+	{
+		"name":"320 x 568",
+		"width":320,
+		"height":568
+	},
+	{
+		"name":"568 x 320",
+		"width":568,
+		"height":320
+	},
+	{
+		"name":"1024 x 768",
+		"width":1024,
+		"height":768
+	},
+	{
+		"name":"768 x 1024",
+		"width":768,
+		"height":1024
+	},
+	{
+		"name":"720 x 1280",
+		"width":720,
+		"height":1280
+	},
+	{
+		"name":"1280 x 720",
+		"width":1280,
+		"height":720
+	}
+]
