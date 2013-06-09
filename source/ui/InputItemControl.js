@@ -4,6 +4,7 @@ enyo.kind({
     placeholder:"Insert value...",
 	validation:"",
 	value:"",
+    reset:"",
     search:false,
 	maxlength: 100,
     decoratorClass:"",
@@ -62,7 +63,7 @@ enyo.kind({
     											name:"btnInputResetter",
                                                 //kind:"Button",
                                                 ontap:"handleRemoveInput",
-                                                classes: "formDecoratorButton icon icon-remove whiteLabel"
+                                                classes: "formDecoratorButton icon icon-remove opaque"
     										}
     									]
     							   }
@@ -85,6 +86,9 @@ enyo.kind({
         }
         if(this.decoratorClass != "") {
             this.setInputDecoratorClass(this.decoratorClass);
+        }
+        if (this.reset == ""){
+            this.reset = this.placeholder;
         }
     },
     setTitle:function(text){
@@ -165,15 +169,15 @@ enyo.kind({
         }
     },
     dismissError:function(inSender,inEvent) {
-        this.$.inputDecorator.controls[0].focus();
         this.$.inputDecorator.removeClass("errorDecorator");
+        this.$.txtInput.setAttribute("placeholder",this.reset);
     },
     inputChanged:function(inSender,inEvent) {
         this.bubble("onInput",inSender);
         if(this.$.txtInput.getValue() != ""){
-            this.$.btnInputResetter.removeClass("whiteLabel");
+            this.$.btnInputResetter.removeClass("opaque");
         } else {
-            this.$.btnInputResetter.addClass("whiteLabel");
+            this.$.btnInputResetter.addClass("opaque");
         }
     }
 });

@@ -1,9 +1,7 @@
+
 enyo.kind({
     name: "StandardPicker",
     kind: "Control",
-    published: {
-        datasource: []
-    },
     components: [
 		{
             kind: "onyx.PickerDecorator",
@@ -13,8 +11,7 @@ enyo.kind({
 					name:"inputDecorator",
                     kind: "onyx.PickerButton", 
 					onChange: "pickerDisplayChange",
-                    style:"width:100%",
- 					classes: "pickerButton",
+ 					classes: "pickerButton setWidthFull",
                     layoutKind: "FittableColumnsLayout",
                     components:[
  						{
@@ -38,13 +35,16 @@ enyo.kind({
 		]} 
 
     ],
+    published: {
+        datasource: [
+        ]
+    },
     events: {
         onChangeItem: ""
     },
      
-    create:function(){
+    rendered:function(){
     	this.inherited(arguments);
-
         this.datasourceChanged();
     },
     datasourceChanged: function() {
@@ -58,21 +58,24 @@ enyo.kind({
         this.doChangeItem(this.$.pickerMenuControl.selected);
     },
     setupItem:function(items){
-     	var i;
+        var i;
         var selected = false;
      	this.items = items;
+        this.$.pickerMenuControl.selected = null;
+        this.$.labelPickerButtonControl.setContent("Please select a profile to load...");
      	this.$.pickerMenuControl.destroyClientControls();
     	for(i = 0; i < items.length;i++){
             if (items[i].active === true) {
                 selected = true;
             }
-    		this.$.pickerMenuControl.createComponent( items[i] );	
+            items[i].index = i;
+            this.$.pickerMenuControl.createComponent( items[i] );
     	}
-    	this.$.pickerMenuControl.render();
-
+    	
         if (selected) {
             this.doChangeItem(this.$.pickerMenuControl.selected);
         }
+        this.$.pickerMenuControl.render();  
     },
     setError:function(){
         this.$.inputDecorator.addClass("errorDecorator");
@@ -91,12 +94,17 @@ enyo.kind({
         }
         
     },
+    setButtonContent:function(content) {
+        this.$.labelPickerButtonControl.setContent("");
+        this.$.labelPickerButtonControl.setContent(content);
+        this.$.labelPickerButtonControl.render();
+    },
     setValue: function(value) {
         var selected = null;
         var i;
         for (i = 0; i < this.$.pickerMenuControl.controls.length; i++) {
             var control = this.$.pickerMenuControl.controls[i];
-            if (control.value == value) {
+            if (control.index == value) {
                 selected = control;
                 break;
             }

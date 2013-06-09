@@ -3,6 +3,7 @@ enyo.depends(
 	"$lib/onyx",	
 	"$lib/com",
 	"$lib/util",
+	"$lib/taffy-min.js",
 	"ui",
 	"dashboard",
 	"header",
