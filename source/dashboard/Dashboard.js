@@ -18,8 +18,16 @@ enyo.kind({
         	classes:"setWidth90 centerDiv fooBar",
         	components:[
         		{
-        			content:""
-        		}
+                    classes:"specialSubHeader",
+                    components:[
+                        {
+                            tag:"h1",
+                            content:"Device Resolution"
+                        }
+                    ]
+                },
+                { kind:"RepeaterList" },
+                { classes:"specialSubFooter" }
         	]
         },
         { classes:"gap" },

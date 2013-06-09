@@ -7,8 +7,9 @@ enyo.kind({
 		{ kind:"Header"	},
 		{
 			kind: "Panels", 
-			fit: true, 
+			name:"panelControl",
 			classes: "panelSlider", 
+			fit: true, 
 			draggable:true,
 			arrangerKind: "CollapsingArranger", 
 			wrap: false,
@@ -39,6 +40,7 @@ enyo.kind({
 	create: function(inSender,inEvent){
 		this.inherited(arguments);
 		var self = this;
+		this.$.panelControl.setIndex(1);
 		this.resolution = this.global.getLocal("ENYO.KITCHENSINK.RESOLUTION");
 		if (this.resolution == null){
 			this.grappler = new util.Grappler(); 

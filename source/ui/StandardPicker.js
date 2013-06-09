@@ -29,6 +29,7 @@ enyo.kind({
 				},
 				{
 					kind: "onyx.Picker", 
+                    modal:false,
                     classes:"stdPickerMenu",
 					name:"pickerMenuControl"
 				}
@@ -55,7 +56,8 @@ enyo.kind({
     },
     pickerHandler:function(inSender,inEvent) {
         this.removeError();
-        this.doChangeItem(this.$.pickerMenuControl.selected);
+        return true;
+        //this.doChangeItem(this.$.pickerMenuControl.selected);
     },
     setupItem:function(items){
         var i;

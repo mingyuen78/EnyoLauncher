@@ -13,7 +13,7 @@ input,textarea,body {
 
 .onyx-toolbar{
 	background-color:#000 !important;
-	color:#fff !important
+	color:#fff !important;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #27262a ), to( #171618 )) !important; 
 	background-image: -webkit-linear-gradient( #27262a , #171618 ) !important; 
 	background-image:    -moz-linear-gradient( #27262a , #171618 ) !important; 
@@ -112,12 +112,12 @@ button:active:hover:not([disabled]){
 .fooBar {
 	margin-top:20px !important;
 	min-height:350px !important;
-	max-height:350px !important;
-	-moz-border-radius: 0.7em !important;
-	-webkit-border-radius: 0.7em !important;
-	border-radius: 0.7em !important;
+	-moz-border-radius: 0.5em !important;
+	-webkit-border-radius:0.5em !important;
+	border-radius:0.5em !important;
 	border:2px solid #2e2e30;
-	background: #d2d2d2 !important;
+	background: #999 !important;
+	overflow:hidden !important;
 }
 
 .pickerButton {
@@ -150,8 +150,8 @@ button:active:hover:not([disabled]){
 .popupHeader {
 	height:35px;
 	font-weight: bold;
-	color:#fff !important
-	background-color:#000 !important;
+	color:#fff !important;
+	background:#000 !important;
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #27262a ), to( #171618 )) !important; 
 	background-image: -webkit-linear-gradient( #27262a , #171618 ) !important; 
 	background-image:    -moz-linear-gradient( #27262a , #171618 ) !important; 
@@ -159,6 +159,41 @@ button:active:hover:not([disabled]){
 	background-image:      -o-linear-gradient( #27262a , #171618 ) !important; 
 	background-image:         linear-gradient( #27262a , #171618 ) !important;
 	line-height:35px;
+}
+
+.itemRepeater {
+	height:35px;
+	padding:10px !important;
+	font-weight: bold;
+	border-top:1px solid #fff;
+	border-bottom:1px solid #999;
+	background:#f2f2f2 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from( #ddd ), to( #cccccc )) !important; 
+	background-image: -webkit-linear-gradient( #ddd , #cccccc ) !important; 
+	background-image:    -moz-linear-gradient( #ddd , #cccccc ) !important; 
+	background-image:     -ms-linear-gradient( #ddd , #cccccc ) !important; 
+	background-image:      -o-linear-gradient( #ddd , #cccccc ) !important; 
+	background-image:         linear-gradient( #ddd , #cccccc ) !important;
+}
+
+.itemRepeater h1 {
+	margin-top:10px !important;
+	margin-bottom:5px !important;
+	line-height: 36px !important;
+	font-size:1.1em !important;
+}
+
+.itemRepeater:active:hover:not([disabled]){
+	border-top:1px solid #777 !important;
+	border-bottom:1px solid #999 !important;
+	height:35px;
+	background: #aaa !important;
+ }
+
+.listIconPlaceHolder {
+	width:40px !important;
+	height:40px !important;
+	padding:5px 5px 5px 5px !important;
 }
 
 .appInputForm {
@@ -177,6 +212,25 @@ button:active:hover:not([disabled]){
 .appInputForm input {
 	border:none !important;
 	background: #ffffff !important;
+}
+
+.specialSubHeader {
+	padding:15px !important;
+	color:#fff !important;
+	background: #1c1c1d !important;
+	overflow: hidden !important;
+	min-height:15px !important;
+}
+
+.specialSubHeader h1 {
+	font-size: 1.0em !important;
+	margin:0px !important;
+	font-weight: 700 !important;
+}
+
+.specialSubFooter {
+	height:30px !important;
+	background: #1c1c1d !important;
 }
 
 .formDecoratorButton {
@@ -200,13 +254,13 @@ button:active:hover:not([disabled]){
 }
  
 .errorDecorator input::-moz-input-placeholder, .errorDecorator textarea::-moz-input-placeholder {
-  color: #990000;
-  font-size:1em;
+	color: #990000;
+	font-size:1em;
 }
 
 .errorDecorator input:-ms-input-placeholder,.errorDecorator textarea:-ms-input-placeholder {
-  color: #990000;
-  font-size:1em;
+	color: #990000;
+	font-size:1em;
 }
 
 .opaque {
@@ -214,21 +268,18 @@ button:active:hover:not([disabled]){
 }
 
 .onyx-picker {
+	margin-top:38px !important;
 	background: #505358 !important;
-	overflow:hidden !important;
-	-moz-border-radius: 0.5em !important;
-	-webkit-border-radius: 0.5em !important;
-	border-radius: 0.5em !important;
-	padding:2px !important;
+	padding:0px !important;
 }
 
 .onyx-menu-item {
-	padding-top:5px !important;
+ 	padding-top:10px !important;
 	padding-bottom:5px !important;
 	padding-left:15px !important;
-	padding-right:15px !important;
+	padding-right:20px !important;
 	line-height:22px !important;
-	height:25px !important;
+	height:30px !important;
 	color:#fff;
 	background: #505358;
 	text-align: left !important;
@@ -236,5 +287,6 @@ button:active:hover:not([disabled]){
 }
 
 .onyx-menu-item.selected, .onyx-picker .onyx-menu-item.active, .onyx-picker .onyx-menu-item:active:hover {
-	background:#cf2716 !important; 
+	background:#ddd !important;
+	color:#1c1c1d;
 }
