@@ -5,7 +5,9 @@ enyo.depends(
 	"$lib/util",
 	"$lib/taffy-min.js",
 	"ui",
+	"sidemenu",
 	"dashboard",
+	"icontilecalculator",
 	"header",
 	"footer",
 	"App.js"

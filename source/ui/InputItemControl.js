@@ -54,6 +54,7 @@ enyo.kind({
     											kind: "onyx.Input",
     											name: "txtInput",
      											value: "Input Area",
+                                                classes:"inputFixer",
                                                 style:"font-size:1em !important",
     											fit:true,
                                                 onfocus:"dismissError",

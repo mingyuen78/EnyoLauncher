@@ -8,7 +8,8 @@ enyo.kind({
 			name: "headerLeft",
 			classes:"headerLeft",
 			kind:"IconButton",
-			icon:"icon-reorder"	
+			icon:"icon-reorder",
+			ontap:"handleButtonTapped"	
 		},
 		{
 			tag:"h1",
@@ -21,7 +22,8 @@ enyo.kind({
 			name: "headerRight",
 			classes:"headerRight",
 			kind:"IconButton",
-			icon:"icon-cog"				
+			icon:"icon-cog",
+			ontap:"handleButtonTapped"			
 		} 
 	],
 	
@@ -32,5 +34,8 @@ enyo.kind({
 	setTitle:function(title){
 		this.title = title;
 		this.$.txtHeaderTitle.setContent(title);
+	},
+	handleButtonTapped:function(inSender,inEvent) {
+		this.bubble("onHeaderButtonTapped",{name:inSender.name});
 	}
 });

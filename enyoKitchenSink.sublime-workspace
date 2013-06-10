@@ -1,0 +1,1397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"css",
+				"css.gradient	myEnyoSnippet.cssGradient"
+			],
+			[
+				"c",
+				"css.textshadow	myEnyoSnippet.cssTextShadow"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"menu",
+				"menuItemList"
+			],
+			[
+				"funct",
+				"function(inSender)	myEnyoSnippet.functionAuto"
+			],
+			[
+				"Set",
+				"SettingsPanelPage"
+			],
+			[
+				"handle",
+				"handleSaveTapped"
+			],
+			[
+				"function",
+				"function(inSender)	myEnyoSnippet.functionAuto"
+			],
+			[
+				"en",
+				"enyo.layoutkind	myEnyoSnippet.layoutkind"
+			],
+			[
+				"picker",
+				"pickerButton"
+			],
+			[
+				"input",
+				"inputProfile"
+			],
+			[
+				"pop",
+				"popupHidden"
+			],
+			[
+				"txt",
+				"inputText"
+			],
+			[
+				"fun",
+				"function(inSender)	myEnyoSnippet.functionAuto"
+			],
+			[
+				"on",
+				"onHide"
+			],
+			[
+				"fu",
+				"function(inSender)	myEnyoSnippet.functionAuto"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"data",
+				"datasource"
+			],
+			[
+				"in",
+				"inResponse"
+			],
+			[
+				"pck",
+				"pckStatus"
+			],
+			[
+				"txtD",
+				"txtAllergyDescription"
+			],
+			[
+				"act",
+				"activeIndex"
+			],
+			[
+				"pckDo",
+				"pckDosageRateUnit"
+			],
+			[
+				"txtDos",
+				"txtDosageRate"
+			],
+			[
+				"enyo",
+				"enyo.layoutkind	myEnyoSnippet.layoutkind"
+			],
+			[
+				"pckDi",
+				"pckDispenseLocation"
+			],
+			[
+				"txtIn",
+				"txtInfuseOverHours"
+			],
+			[
+				"pckIn",
+				"pckInfusionRate"
+			],
+			[
+				"txtS",
+				"txtStrength"
+			],
+			[
+				"type",
+				"typeComponents"
+			],
+			[
+				"con",
+				"controlType"
+			],
+			[
+				"header",
+				"headerControl"
+			],
+			[
+				"he",
+				"headerControl"
+			],
+			[
+				"Da",
+				"DashboardPage"
+			],
+			[
+				"set",
+				"setTitle"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"setting",
+				"settingsArrays"
+			],
+			[
+				"f",
+				"function(inSender)	myEnyoSnippet.functionAuto"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"onyx-",
+				"onyx-toggle-button"
+			],
+			[
+				"txtDr",
+				"txtDrugName"
+			],
+			[
+				"end",
+				"enddate"
+			],
+			[
+				"dur",
+				"duration"
+			],
+			[
+				"start",
+				"starttime"
+			],
+			[
+				"dos",
+				"dosageschedule"
+			],
+			[
+				"txtDo",
+				"txtDoseUnit"
+			],
+			[
+				"setIn",
+				"setInputDecoratorStyle"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"reset",
+				"resetLeft"
+			],
+			[
+				"btn",
+				"btnRight"
+			],
+			[
+				"se",
+				"secondColumn"
+			],
+			[
+				"txtQ",
+				"txtQuantityUnit"
+			],
+			[
+				"get",
+				"getValue"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"onyx",
+				"onyx-input"
+			],
+			[
+				"error",
+				"errorDecorator"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"onx",
+				"onyx-menu-item"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"orange",
+				"orangeMenu"
+			],
+			[
+				"tet",
+				"text-align"
+			],
+			[
+				"st",
+				"stdStartButton"
+			],
+			[
+				"ac",
+				"active:hover	myEnyoSnippet.activehover"
+			],
+			[
+				"Or",
+				"OrderDrawerItemControl"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"du",
+				"drugDescription"
+			],
+			[
+				"app",
+				"appIcons"
+			],
+			[
+				"ey",
+				"enyo.layoutkind	myEnyoSnippet.layoutkind"
+			],
+			[
+				"conta",
+				"contactNo"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"item",
+				"itemRepeater"
+			],
+			[
+				"filter",
+				"filterInput"
+			],
+			[
+				"refre",
+				"refreshList"
+			],
+			[
+				"mem",
+				"memberTypePicker"
+			],
+			[
+				"load",
+				"loadTextFile"
+			],
+			[
+				"proce",
+				"processResponse"
+			],
+			[
+				"place",
+				"placeholder"
+			],
+			[
+				"li",
+				"listItemTapped"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"return",
+				"returnedObject"
+			],
+			[
+				"fnction",
+				"function(inSender)	myEnyoSnippet.functionAuto"
+			],
+			[
+				"float",
+				"floatingMenuDiv"
+			],
+			[
+				"bad",
+				"badgeControl"
+			],
+			[
+				"at",
+				"attachContent"
+			],
+			[
+				"HDial",
+				"HDialPicker"
+			],
+			[
+				"layout",
+				"layoutStyle"
+			],
+			[
+				"para",
+				"paramSplit"
+			],
+			[
+				"eny",
+				"enyo.layoutkind	myEnyoSnippet.layoutkind"
+			],
+			[
+				"no",
+				"noAddressForm"
+			],
+			[
+				"noAd",
+				"noAddressForm"
+			],
+			[
+				"rounded",
+				"roundedCorner"
+			],
+			[
+				"PHD",
+				"PHDUpperMenu"
+			],
+			[
+				"center",
+				"centerTarget"
+			],
+			[
+				"create",
+				"createPopup"
+			],
+			[
+				"store",
+				"storeLocation"
+			],
+			[
+				"instrc",
+				"labelInstruction"
+			],
+			[
+				"content",
+				"contentList"
+			],
+			[
+				"selected",
+				"selectedItem"
+			],
+			[
+				"re",
+				"returnedObject"
+			],
+			[
+				"navi",
+				"navMatrix"
+			],
+			[
+				"na",
+				"navMatrix"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"hadle",
+				"handleBtnSideTapped"
+			],
+			[
+				"er",
+				"errorDecorator"
+			],
+			[
+				"page",
+				"pageNumber"
+			],
+			[
+				"o",
+				"overrideMessage"
+			],
+			[
+				"list",
+				"listItemTappedAndroid"
+			],
+			[
+				"inde",
+				"inSender"
+			],
+			[
+				"te",
+				"telLink"
+			],
+			[
+				"go",
+				"gotoMainPanel"
+			],
+			[
+				"s",
+				"style"
+			],
+			[
+				"rounde",
+				"roundedBottom"
+			],
+			[
+				"Ad",
+				"AddressList"
+			],
+			[
+				"la",
+				"FittableColumnsLayout"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"Pizza",
+				"PizzaFlavourControl"
+			],
+			[
+				"fff",
+				"ffffff"
+			],
+			[
+				"setW",
+				"setWidth60"
+			],
+			[
+				"Q",
+				"QuantityPickerControl"
+			],
+			[
+				"size",
+				"sizeID"
+			],
+			[
+				"qu",
+				"quantityControl"
+			],
+			[
+				"drawe",
+				"drawerItem"
+			],
+			[
+				"smal",
+				"smallerButton"
+			],
+			[
+				"a",
+				"allowHtml"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "source/App.js",
+			"settings":
+			{
+				"buffer_size": 2291,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/icontiler/package.js",
+			"settings":
+			{
+				"buffer_size": 32,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/icontiler/IconTiler.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/icontilecalculator/package.js",
+			"settings":
+			{
+				"buffer_size": 41,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/sidemenu/SideMenu.js",
+			"settings":
+			{
+				"buffer_size": 1129,
+				"line_ending": "Windows",
+				"name": "enyo.kind({"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/Documents/GitHub/phis2/source/common/page/Page.js",
+			"settings":
+			{
+				"buffer_size": 696,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/Documents/GitHub/phis2/source/common/page/PanelPage.js",
+			"settings":
+			{
+				"buffer_size": 3939,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/sidemenu/package.js",
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/package.js",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/header/Header.js",
+			"settings":
+			{
+				"buffer_size": 828,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/css/app.css",
+			"settings":
+			{
+				"buffer_size": 8392,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/icontilecalculator/IconTileCalculator.js",
+			"settings":
+			{
+				"buffer_size": 168,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 380.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove package",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"jslint",
+				"JSLint: Containing Folder"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"print",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSLint"
+			],
+			[
+				"{",
+				"Snippet: for (…) {…}"
+			],
+			[
+				"jquery",
+				"Snippet: jQuery Mobile: Select menu"
+			],
+			[
+				"jquer",
+				"Snippet: jQuery Mobile starter page"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 160.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/InputItemControl.js",
+		"/C/Users/Alex/Documents/GitHub/enyoUtilityBelt/assets/css/csskit/font-awesome.min.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/csskit/base.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/csskit/base.min.css",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/view/LocationSelectorMenu.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/PanelPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/view/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DemographicBox.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DemographicColumnBox.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/assets/css/app.css",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/PatientListPage.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/StandardPicker.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/RepeaterList.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/SearchableList.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/dashboard/Dashboard.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/index.html",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/SummaryBoxLister.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/SummaryRepeater.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/header/Header.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/footer/Footer.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/FooterTemplate.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/order/page/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/order/page/AddNormalDrugFormPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/order/page/Add-IV-InotropeDrugFormPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/favourite/page/SettingsPanelPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/form/FavDrugForm.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/form/NormalDrugForm.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/form/AllergyForm.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/form/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/assets/css/buttons.css",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/App.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/favourite/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/favourite/form/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/favourite/page/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/PatientPhysicalDetails.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/AddNormalGroupButton.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/PatientHeader.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/lib/com/component/PopupWindow.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/app.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/package.js",
+		"/C/Users/Alex/Documents/GitHub/SafariWebAppLauncher/js/page.control.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/package.js",
+		"/C/Users/Alex/Documents/GitHub/phd-app/source/control/ItemFavouriteList.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/PopupInput.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/App.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/StandardPicker.js",
+		"/C/Users/Alex/Documents/GitHub/phd-app/source/component/FeedBackUser.js",
+		"/C/Users/Alex/Documents/GitHub/phd-app/source/CheckAddress.js",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/User/sublime-jslint.sublime-settings",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/settings/resolution.json",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/index.html",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/header/Header.js",
+		"/C/Users/Alex/Documents/GitHub/phd-app/assets/css/app.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/dashboard/package.js",
+		"/C/Users/Alex/AppData/Local/Temp/Temp1_font-awesome (1).zip/font-awesome/css/font-awesome.min.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/csskit/font-awesome.min.css",
+		"/C/Users/Alex/Documents/GitHub/phd-app/assets/css/go/font-awesome.min.css",
+		"/C/Users/Alex/Documents/GitHub/phd-app/assets/css/phdButtons.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/lib/onyx/source/IconButton.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/IconButton.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/footer/Footer.js",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/User/myEnyoSnippet.cssTextShadow.sublime-snippet",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/order/page/OrderPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/AllergyFormPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/AllergyGroupButton.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/form/IVAdmixtureDrugForm.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/AddNormalDrugFormPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/FavouriteDrugListPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/FavDrawerItemControl.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/IVGroupButton.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/SelectableItemList.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/CheckBoxRepeaterItem.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/OrderRepeaterItem.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/Add-IV-AdmixtureDrugFormPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/Add-IV-FluidDrugFormPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/Add-IV-InotropeDrugFormPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/form/IVFluidDrugForm.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/form/IVInotropeDrugForm.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/ComingSoonPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/OrderDraftButtons.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/header/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/footer/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/package.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/HeaderDrugButtonPicker.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/lib/onyx/source/RadioGroup.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/PreloaderButton.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/ButtonPicker.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/InputDisplayControl.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/order/page/ConfirmPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/common/LocationSelectorPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/ClinicSelectorPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/OrderPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DataGridRepeaterItem.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/OrderCurrentButtons.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/ConfirmPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/OrderButtonControl.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/OrderMIMSButtons.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/OrderDrawerItemControl.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/PageScrollView.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/Page.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/ConfirmMIMSPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/login/page/package.js",
+		"//192.168.0.77/eios/phis2/source/common/ui/PageScrollView.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/page/DashboardPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/view/DashboardSelectorMenu.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/outpatient/page/OutPatientListPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/assets/settings/settings.json",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/outpatient/page/ClinicSelectorPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/page/LocationSelectorPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/assets/settings/settings.cmg.json",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DosageSchedulePopupButton.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/popup/ContextPopup.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/SelectorPopupButton.js",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/User/myEnyoSnippet.cssRadius.sublime-snippet",
+		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/User/myEnyoSnippet.cssGradient.sublime-snippet",
+		"/C/Users/Alex/Documents/GitHub/phis2/enyo/source/ui/Popup.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/InputAutoCompleteControl.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/InputItemControl.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/login/form/LoginForm.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/OrderRepeaterItemWithRemark.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/login/page/LoginPage.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/lib/go/control/Alert.js",
+		"/C/Users/Alex/Documents/GitHub/phd-app/source/control/PizzaAllPurposeButton.js",
+		"/C/Users/Alex/Documents/GitHub/wip/greatEastern/assets/css/app.css"
+	],
+	"find":
+	{
+		"height": 61.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"menuHeader",
+			"disabled",
+			"menuButton",
+			"listItemTapped",
+			"datasourceChanged",
+			"rightColumnRepeaterControl",
+			"PanelPage",
+			"patientHeaderTapped",
+			"Parazin",
+			"frequency",
+			"admin",
+			"admin route",
+			"tabButtons",
+			"infoButton",
+			"setupItem",
+			"fooBar",
+			"1em",
+			"},\n",
+			"header",
+			"pickerHandler",
+			"show()",
+			"show",
+			"doChangeItem",
+			"this",
+			"pickerMenuControl",
+			"pckProfile",
+			"resetInputs",
+			"popupShown",
+			"placeholder",
+			"reset",
+			"inputDecorator",
+			"pickerMenuControl",
+			"bottom",
+			"shadow",
+			"3.1",
+			"leftWing45",
+			"h1",
+			"blueaddtoFav",
+			"tab",
+			"tabMenu",
+			"box-shadow",
+			"blue",
+			"wing",
+			"                        {",
+			"onRadioGroupTapped",
+			"txtDose",
+			"insert value",
+			"duration",
+			"normalDrugForm",
+			"pckInfusionRate",
+			"                            style:\"width:150px\",",
+			"appInputDisplayForm",
+			"dose",
+			"headerPickerDecorator",
+			"header",
+			"footer",
+			"Wig",
+			"header",
+			"picker",
+			"header",
+			"headerB",
+			"button",
+			"blueEdit",
+			"setControlType",
+			"badge",
+			"header",
+			"sideList",
+			"disabled",
+			"headerPicker",
+			"header",
+			"	text-shadow: 0 -1px 3px #999 !important;\n",
+			"headerButton",
+			"picker",
+			"header",
+			"headerPicker",
+			"disabled",
+			"Picker",
+			"width95px",
+			"width",
+			"min",
+			"header",
+			"headerButton",
+			"radius",
+			"header",
+			"headerButton",
+			"220",
+			"headerPicker",
+			"listItemTapped",
+			"box",
+			"cyanButton",
+			"headerButton",
+			"onyx-contextual-popup-scroller",
+			"popupWindow",
+			"item",
+			"menu",
+			"canGenerate",
+			"contextPopupHeader",
+			"onyx-menu-item",
+			"menu-item",
+			"ButtonMenu",
+			"FooterTemplate",
+			"appInputForm",
+			"searchRoundedCorner",
+			"appInput",
+			"cyan",
+			"iconControl",
+			"btn40px",
+			"btn40px\nbtn40px",
+			"btn40px",
+			"pizzaIconControl",
+			"panel",
+			"searchRoundedCorner",
+			"dateTime",
+			"Icon",
+			".appInputForm",
+			"inputDecorator",
+			"btnInputResetter",
+			"txtDrugName",
+			"formButton",
+			"autoLock",
+			".onyx-input",
+			"appInputForm",
+			"formLabels",
+			"trayInputForm",
+			"header",
+			"trayRepeaterItem",
+			"handleButtonTapped",
+			"this.bubble"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"this.context = this.global.getObject(\"PHD.APPDATA.USERSESSION\");",
+			"if (this.context != null){",
+			"inputFixer"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "source/App.js",
+					"settings":
+					{
+						"buffer_size": 2291,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2120,
+								2120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1633.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/icontiler/package.js",
+					"settings":
+					{
+						"buffer_size": 32,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "source/icontiler/IconTiler.js",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/icontilecalculator/package.js",
+					"settings":
+					{
+						"buffer_size": 41,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								34
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "source/sidemenu/SideMenu.js",
+					"settings":
+					{
+						"buffer_size": 1129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								475,
+								475
+							]
+						],
+						"settings":
+						{
+							"auto_name": "enyo.kind({",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 407.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Alex/Documents/GitHub/phis2/source/common/page/Page.js",
+					"settings":
+					{
+						"buffer_size": 696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Alex/Documents/GitHub/phis2/source/common/page/PanelPage.js",
+					"settings":
+					{
+						"buffer_size": 3939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3010,
+								3187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3012.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "source/sidemenu/package.js",
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24,
+								24
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "source/package.js",
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								185,
+								185
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "source/header/Header.js",
+					"settings":
+					{
+						"buffer_size": 828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								616,
+								616
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 81.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "assets/css/app.css",
+					"settings":
+					{
+						"buffer_size": 8392,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3838,
+								3838
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4072.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "source/icontilecalculator/IconTileCalculator.js",
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 445.0
+	},
+	"output.jslint_result_view":
+	{
+		"height": 102.0
+	},
+	"output.jsrevival_result_view":
+	{
+		"height": 148.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 281.0,
+	"status_bar_visible": true
+}

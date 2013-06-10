@@ -4,7 +4,10 @@ enyo.kind({
 	kind: "FittableRows", 
 	classes: "enyo-fit enyo-unselectable",
 	components: [
-		{ kind:"Header"	},
+		{ 
+			kind:"Header",
+			onHeaderButtonTapped:"handleHeaderButtonTapped" 
+		},
 		{
 			kind: "Panels", 
 			name:"panelControl",
@@ -15,7 +18,10 @@ enyo.kind({
 			wrap: false,
 			components: [
 				{
-					classes:"leftPane"
+					name:"navigationControl",
+					classes:"leftPane",
+					kind:"SideMenu",
+					onMenuButtonTapped:"handleChangeContent"
 				},
 				{
 					classes:"appBody",
@@ -56,5 +62,30 @@ enyo.kind({
 	},
 	rendered : function(inSender,inEvent){
 		this.inherited(arguments);
-	} 
+	},
+	handleHeaderButtonTapped:function(inSender,inEvent) {
+		switch(inEvent.name){
+			case "headerLeft":
+				console.log(this.$.panelControl.getIndex());
+				if(this.$.panelControl.getIndex()){
+					this.$.panelControl.setIndex(0);
+				} else {
+					this.$.panelControl.setIndex(1);
+				}
+			break;
+			case "headerRight":
+				alert('Feature coming soon...');
+			break;
+		}
+	},
+	setContentKind:function(kindName){
+    	var kindControl = new window[kindName]();
+    	this.$.contentControl.destroyClientControls();
+    	this.$.contentControl.createComponent(kindControl);
+    	this.$.contentControl.render();
+    	this.$.panelControl.reflow();    	
+    },
+	handleChangeContent:function(inSender,inEvent){
+		this.setContentKind(inEvent.page);
+	}
 });
