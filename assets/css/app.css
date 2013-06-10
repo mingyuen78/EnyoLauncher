@@ -134,9 +134,9 @@ button:active:hover:not([disabled]){
 }
 
 .stdButton {
-	width:112px !important;
-  	padding-left:10px !important;
-	padding-right:10px !important;
+	width:96px !important;
+  	padding-left:5px !important;
+	padding-right:5px !important;
 }
 
 .tinyButton {
@@ -217,7 +217,7 @@ button:active:hover:not([disabled]){
 .specialSubHeader {
 	padding:15px !important;
 	color:#fff !important;
-	background: #1c1c1d !important;
+	background: #000 !important;
 	overflow: hidden !important;
 	min-height:15px !important;
 }
@@ -230,7 +230,7 @@ button:active:hover:not([disabled]){
 
 .specialSubFooter {
 	height:30px !important;
-	background: #1c1c1d !important;
+	background: #000 !important;
 }
 
 .formDecoratorButton {

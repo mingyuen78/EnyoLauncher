@@ -2,6 +2,7 @@
 enyo.kind({
     name: "StandardPicker",
     kind: "Control",
+    global: com.Global,
     components: [
 		{
             kind: "onyx.PickerDecorator",
@@ -15,7 +16,7 @@ enyo.kind({
                     layoutKind: "FittableColumnsLayout",
                     components:[
  						{
- 							content:"Please select a profile to load...",
+ 							content:"Select a profile to load...",
  							name:"labelPickerButtonControl",
                             style:"width:96%",
                             classes:"truncate"
@@ -56,6 +57,8 @@ enyo.kind({
     },
     pickerHandler:function(inSender,inEvent) {
         this.removeError();
+        this.global.storeLocal("ENYO.KITCHENSINK.LASTSELECTED",inEvent.originator.index);
+
         return true;
         //this.doChangeItem(this.$.pickerMenuControl.selected);
     },
@@ -64,9 +67,15 @@ enyo.kind({
         var selected = false;
      	this.items = items;
         this.$.pickerMenuControl.selected = null;
-        this.$.labelPickerButtonControl.setContent("Please select a profile to load...");
+        this.$.labelPickerButtonControl.setContent("Select a profile to load...");
      	this.$.pickerMenuControl.destroyClientControls();
     	for(i = 0; i < items.length;i++){
+            this.lastSelectedIndex = this.global.getLocal("ENYO.KITCHENSINK.LASTSELECTED");
+            if (this.lastSelectedIndex != null){
+                if (i == this.lastSelectedIndex){
+                    items[i].active = true;
+                }                
+            }
             if (items[i].active === true) {
                 selected = true;
             }

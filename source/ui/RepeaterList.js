@@ -35,6 +35,7 @@ enyo.kind({
     create:function(){
     	this.inherited(arguments);
     	this.refreshList();
+
     },
     refreshList:function(){
     	this.datasource = this.global.getLocal("ENYO.KITCHENSINK.RESOLUTION");
@@ -45,5 +46,6 @@ enyo.kind({
     },
     listItemTapped:function(inSender,inEvent) {
     	console.log("Launching page in resolution : "+ this.datasource[inEvent.index].width + " x "+ this.datasource[inEvent.index].height);
+    	this.bubble("onListTapped",inEvent);
     }
 });

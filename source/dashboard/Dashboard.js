@@ -20,13 +20,10 @@ enyo.kind({
         		{
                     classes:"specialSubHeader",
                     components:[
-                        {
-                            tag:"h1",
-                            content:"Device Resolution"
-                        }
+                        { tag:"h1", content:"Device Resolution" }
                     ]
                 },
-                { kind:"RepeaterList" },
+                { kind:"RepeaterList",onListTapped:"handleListTapped" },
                 { classes:"specialSubFooter" }
         	]
         },
@@ -77,10 +74,24 @@ enyo.kind({
             this.$.popupInput.setEditIndex(this.$.pckProfile.getSelected().index);
             this.$.popupInput.show();
         } else {
-            alert("Please select a profile first");
+            alert("Select a profile first");
             this.$.popupInput.setEditIndex(null);
+            this.global.storeLocal("ENYO.KITCHENSINK.LASTSELECTED",null);
         }
         
+    },
+    handleListTapped:function(inSender,inEvent) {
+        if (this.$.pckProfile.getSelected() != null){
+            this.url = this.$.pckProfile.getSelected().file;
+            this.PopupWindow = new PopupWindow();
+            this.resolutionList = this.global.getLocal("ENYO.KITCHENSINK.RESOLUTION");
+            this.param = {width:this.resolutionList[inEvent.index].width, height:this.resolutionList[inEvent.index].height};
+            this.PopupWindow.popupWin(this.url,this.param);
+        } else {
+            alert("Select a profile first");
+            this.$.popupInput.setEditIndex(null);
+            this.global.storeLocal("ENYO.KITCHENSINK.LASTSELECTED",null);
+        }
     },
     handleButtonCreateTapped:function(inSender,inEvent) {
         this.$.popupInput.setEditIndex(null);
@@ -93,9 +104,11 @@ enyo.kind({
             console.log(this.deleteIndex);
             this.global.storeLocal("ENYO.KITCHENSINK.PROFILE",this.removeByIndex(this.profiles,this.deleteIndex));
             this.triggerRefresh();
+            this.global.storeLocal("ENYO.KITCHENSINK.LASTSELECTED",null);
          } else {
             alert("Please select a profile first");
             this.$.popupInput.setEditIndex(null);
+            this.global.storeLocal("ENYO.KITCHENSINK.LASTSELECTED",null);
         }
     },
     removeByIndex:function(arr, index) {
