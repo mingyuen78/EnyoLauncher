@@ -103,8 +103,8 @@ enyo.kind({
             this.deleteIndex = this.$.pckProfile.getSelected().index;
             console.log(this.deleteIndex);
             this.global.storeLocal("ENYO.KITCHENSINK.PROFILE",this.removeByIndex(this.profiles,this.deleteIndex));
-            this.triggerRefresh();
             this.global.storeLocal("ENYO.KITCHENSINK.LASTSELECTED",null);
+            this.triggerRefresh();
          } else {
             alert("Please select a profile first");
             this.$.popupInput.setEditIndex(null);
