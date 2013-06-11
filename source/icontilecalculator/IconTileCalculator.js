@@ -83,7 +83,6 @@ enyo.kind({
 					]
 				}
 			]
-			
 			//style:"height:250px;margin-bottom:10px;background:#fff;padding:12px"
 		},
 		{ classes:"gap" },

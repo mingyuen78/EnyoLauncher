@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"setW",
+				"setWidthFull"
+			],
+			[
+				"txt",
+				"txtAlignRight"
+			],
+			[
+				"com",
+				"components"
+			],
+			[
 				"css",
 				"css.gradient	myEnyoSnippet.cssGradient"
 			],
@@ -50,10 +62,6 @@
 			[
 				"pop",
 				"popupHidden"
-			],
-			[
-				"txt",
-				"inputText"
 			],
 			[
 				"fun",
@@ -488,10 +496,6 @@
 				"ffffff"
 			],
 			[
-				"setW",
-				"setWidth60"
-			],
-			[
 				"Q",
 				"QuantityPickerControl"
 			],
@@ -510,10 +514,6 @@
 			[
 				"smal",
 				"smallerButton"
-			],
-			[
-				"a",
-				"allowHtml"
 			]
 		]
 	},
@@ -523,31 +523,7 @@
 			"file": "source/App.js",
 			"settings":
 			{
-				"buffer_size": 2291,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/icontiler/package.js",
-			"settings":
-			{
-				"buffer_size": 32,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/icontiler/IconTiler.js",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/icontilecalculator/package.js",
-			"settings":
-			{
-				"buffer_size": 41,
+				"buffer_size": 2360,
 				"line_ending": "Windows"
 			}
 		},
@@ -569,22 +545,6 @@
 			}
 		},
 		{
-			"file": "/C/Users/Alex/Documents/GitHub/phis2/source/common/page/PanelPage.js",
-			"settings":
-			{
-				"buffer_size": 3939,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/sidemenu/package.js",
-			"settings":
-			{
-				"buffer_size": 31,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "source/package.js",
 			"settings":
 			{
@@ -593,10 +553,10 @@
 			}
 		},
 		{
-			"file": "source/header/Header.js",
+			"file": "source/icontilecalculator/IconTileCalculator.js",
 			"settings":
 			{
-				"buffer_size": 828,
+				"buffer_size": 4054,
 				"line_ending": "Windows"
 			}
 		},
@@ -604,15 +564,7 @@
 			"file": "assets/css/app.css",
 			"settings":
 			{
-				"buffer_size": 8392,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/icontilecalculator/IconTileCalculator.js",
-			"settings":
-			{
-				"buffer_size": 168,
+				"buffer_size": 8789,
 				"line_ending": "Windows"
 			}
 		}
@@ -705,12 +657,19 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/InputItemControl.js",
-		"/C/Users/Alex/Documents/GitHub/enyoUtilityBelt/assets/css/csskit/font-awesome.min.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/icontiler/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/icontiler/IconTiler.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/app.css",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/csskit/base.css",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/csskit/base.min.css",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/view/LocationSelectorMenu.js",
+		"/C/Users/Alex/Documents/GitHub/pixelRatioCalc/source/App.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/icontilecalculator/package.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/PanelPage.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/sidemenu/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/header/Header.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/InputItemControl.js",
+		"/C/Users/Alex/Documents/GitHub/enyoUtilityBelt/assets/css/csskit/font-awesome.min.css",
+		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/view/LocationSelectorMenu.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/view/package.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DemographicBox.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DemographicColumnBox.js",
@@ -746,7 +705,6 @@
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/AddNormalGroupButton.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/PatientHeader.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/lib/com/component/PopupWindow.js",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/app.css",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/package.js",
 		"/C/Users/Alex/Documents/GitHub/SafariWebAppLauncher/js/page.control.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/package.js",
@@ -759,7 +717,6 @@
 		"/C/Users/Alex/AppData/Roaming/Sublime Text 2/Packages/User/sublime-jslint.sublime-settings",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/settings/resolution.json",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/index.html",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/header/Header.js",
 		"/C/Users/Alex/Documents/GitHub/phd-app/assets/css/app.css",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/dashboard/package.js",
 		"/C/Users/Alex/AppData/Local/Temp/Temp1_font-awesome (1).zip/font-awesome/css/font-awesome.min.css",
@@ -827,12 +784,7 @@
 		"/C/Users/Alex/Documents/GitHub/phis2/enyo/source/ui/Popup.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/InputAutoCompleteControl.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/InputItemControl.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/login/form/LoginForm.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/OrderRepeaterItemWithRemark.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/login/page/LoginPage.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/lib/go/control/Alert.js",
-		"/C/Users/Alex/Documents/GitHub/phd-app/source/control/PizzaAllPurposeButton.js",
-		"/C/Users/Alex/Documents/GitHub/wip/greatEastern/assets/css/app.css"
+		"/C/Users/Alex/Documents/GitHub/phis2/source/login/form/LoginForm.js"
 	],
 	"find":
 	{
@@ -851,6 +803,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"padding",
 			"menuHeader",
 			"disabled",
 			"menuButton",
@@ -977,8 +930,7 @@
 			"trayInputForm",
 			"header",
 			"trayRepeaterItem",
-			"handleButtonTapped",
-			"this.bubble"
+			"handleButtonTapped"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -999,7 +951,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1007,15 +959,15 @@
 					"file": "source/App.js",
 					"settings":
 					{
-						"buffer_size": 2291,
+						"buffer_size": 2360,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2120,
-								2120
+								2225,
+								2225
 							]
 						],
 						"settings":
@@ -1024,91 +976,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1633.0,
+						"translation.y": 1824.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "source/icontiler/package.js",
-					"settings":
-					{
-						"buffer_size": 32,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								25
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/icontiler/IconTiler.js",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "source/icontilecalculator/package.js",
-					"settings":
-					{
-						"buffer_size": 41,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16,
-								34
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "source/sidemenu/SideMenu.js",
 					"settings":
 					{
@@ -1126,7 +1000,9 @@
 						"settings":
 						{
 							"auto_name": "enyo.kind({",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 407.0,
@@ -1135,7 +1011,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "/C/Users/Alex/Documents/GitHub/phis2/source/common/page/Page.js",
 					"settings":
 					{
@@ -1163,59 +1039,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/C/Users/Alex/Documents/GitHub/phis2/source/common/page/PanelPage.js",
-					"settings":
-					{
-						"buffer_size": 3939,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3010,
-								3187
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3012.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "source/sidemenu/package.js",
-					"settings":
-					{
-						"buffer_size": 31,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								24,
-								24
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
+					"buffer": 3,
 					"file": "source/package.js",
 					"settings":
 					{
@@ -1242,46 +1066,45 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "source/header/Header.js",
+					"buffer": 4,
+					"file": "source/icontilecalculator/IconTileCalculator.js",
 					"settings":
 					{
-						"buffer_size": 828,
+						"buffer_size": 4054,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								616,
-								616
+								2223,
+								2223
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 81.0,
+						"translation.y": 2033.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 5,
 					"file": "assets/css/app.css",
 					"settings":
 					{
-						"buffer_size": 8392,
+						"buffer_size": 8789,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3838,
-								3838
+								6763,
+								6763
 							]
 						],
 						"settings":
@@ -1290,33 +1113,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 4072.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "source/icontilecalculator/IconTileCalculator.js",
-					"settings":
-					{
-						"buffer_size": 168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								164,
-								164
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 6378.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
