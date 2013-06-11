@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"setW",
-				"setWidthFull"
+				"txt",
+				"txtCode"
 			],
 			[
-				"txt",
-				"txtAlignRight"
+				"setW",
+				"setWidthFull"
 			],
 			[
 				"com",
@@ -519,6 +519,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "source/icontilecalculator/IconTileCalculator.js",
+			"settings":
+			{
+				"buffer_size": 4205,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/gradientgenerator/package.js",
+			"settings":
+			{
+				"buffer_size": 40,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -743,7 +759,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 117.0,
 		"where_history":
 		[
 			""
@@ -902,8 +918,62 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "source/icontilecalculator/IconTileCalculator.js",
+					"settings":
+					{
+						"buffer_size": 4205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2673,
+								2673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2629.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "source/gradientgenerator/package.js",
+					"settings":
+					{
+						"buffer_size": 40,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								33
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

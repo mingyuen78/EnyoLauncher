@@ -1,5 +1,5 @@
 enyo.kind({
-	name: "IconTileCalculator",
+	name: "GradientGenerator",
 	global: com.Global,
 	phoneGap: util.PhoneGapSuit, 
 	classes: "enyo-fit enyo-unselectable",
