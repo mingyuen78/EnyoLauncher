@@ -133,6 +133,10 @@ button:active:hover:not([disabled]){
 	height:15px !important;
 }
 
+.smallgap {
+	height:10px !important;
+}
+
 .stdButton {
 	width:96px !important;
   	padding-left:5px !important;
@@ -228,6 +232,18 @@ button:active:hover:not([disabled]){
 	width:40px !important;
 	height:40px !important;
 	padding:5px 5px 5px 5px !important;
+}
+
+.textAreaDecorator {
+	-moz-box-shadow:    inset 0 0 6px #444;
+    -webkit-box-shadow: inset 0 0 6px #444;
+    box-shadow:         inset 0 0 6px #444;
+    background: #ffffff !important;
+    -moz-border-radius: 0.5em !important;
+	-webkit-border-radius: 0.5em !important;
+	border-radius: 0.5em !important;
+	padding:0px !important;
+	border:none !important;
 }
 
 .appInputForm {

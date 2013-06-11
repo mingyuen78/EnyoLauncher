@@ -79,11 +79,13 @@ enyo.kind({
 		}
 	},
 	setContentKind:function(kindName){
-    	var kindControl = new window[kindName]();
+		//var kindControl = new window[kindName]();
+    	var kindControl = { kind:window[kindName] };
     	this.$.contentControl.destroyClientControls();
     	this.$.contentControl.createComponent(kindControl);
+    	//this.$.contentControl.addControl(kindControl);
     	this.$.contentControl.render();
-    	this.$.panelControl.reflow();    	
+    	
     },
 	handleChangeContent:function(inSender,inEvent){
 		this.setContentKind(inEvent.page);
