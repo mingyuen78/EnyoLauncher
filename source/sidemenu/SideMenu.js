@@ -22,6 +22,13 @@ enyo.kind({
         	ontap:"handleButtonTapped"
         },
         {
+            kind:"Button",
+            classes:"menuButton",
+            content:"Gradient Generator",
+            page:"GradientGenerator",
+            disabled:true
+        },
+        {
         	kind:"Button",
         	classes:"menuButton",
         	content:"Shadow Generator",

@@ -74,8 +74,9 @@ enyo.kind({
 							components:[
 								{
 									kind:"onyx.TextArea",
-									style:"margin:15px",
-									classes:"setWidthFull"
+									name:"txtCode",
+									allowHtml:true,
+									style:"margin:15px;width:98%"
 								}
 							]
 						}
@@ -83,7 +84,6 @@ enyo.kind({
 					]
 				}
 			]
-			//style:"height:250px;margin-bottom:10px;background:#fff;padding:12px"
 		},
 		{ classes:"gap" },
 		{
@@ -127,13 +127,13 @@ enyo.kind({
  				//Height vs Pixel
  				maxWidth = (oIcons *  oPixel);
  				computedRatioValue = (oHeight * maxWidth) / oWidth;
- 				self.$.txtCode.setContent("");
- 				self.$.txtCode.setContent("background-size: "+maxWidth+"px "+computedRatioValue+"px !important;");
+ 				self.$.txtCode.setValue("");
+ 				self.$.txtCode.setValue("background-size: "+maxWidth+"px "+computedRatioValue+"px !important;");
  			} else {
  				//Width vs Pixel
  				computedRatioValue = (oHeight * oPixel) / oWidth;
- 				self.$.txtCode.setContent("");
- 				self.$.txtCode.setContent("background-size: "+oPixel+"px "+computedRatioValue+"px !important;");
+ 				self.$.txtCode.setValue("");
+ 				self.$.txtCode.setValue("background-size: "+oPixel+"px "+computedRatioValue+"px !important;");
  			}
  			
  			
