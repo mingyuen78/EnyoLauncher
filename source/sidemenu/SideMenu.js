@@ -26,14 +26,14 @@ enyo.kind({
             classes:"menuButton",
             content:"Gradient Generator",
             page:"GradientGenerator",
-            disabled:true
+            ontap:"handleButtonTapped"
         },
         {
         	kind:"Button",
         	classes:"menuButton",
         	content:"Shadow Generator",
-        	page:"Shadow",
-        	disabled:true
+        	page:"ShadowGenerator",
+            ontap:"handleButtonTapped"
         },
         {
         	kind:"Button",
@@ -51,6 +51,6 @@ enyo.kind({
         }
     ],
     handleButtonTapped:function(inSender,inEvent) {
-    	this.bubble("onMenuButtonTapped",{page:inSender.page});
+    	this.bubble("onMenuButtonTapped",{page:inSender.page,content:inSender.content});
     }
 });

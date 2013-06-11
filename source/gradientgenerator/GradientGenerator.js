@@ -7,7 +7,7 @@ enyo.kind({
 	components: [
 		{
 		    classes:"instructionBar",
-		    content:"Welcome to Icon Tile Calculator. This is a unique tool designed to help CSS stylers to place and compute scale needed for icon sprites background. Enter Original Image Size and Desired Icon Size."
+		    content:"Welcome to Gradient Generator. This is a unique tool designed to help CSS stylers to generate cross platform gradient effect used in toolbar, footers and buttons."
 		},
 		{
 			name:"appForm",
@@ -19,47 +19,50 @@ enyo.kind({
 
 						{ classes:"gap" },
 						{
+				        	classes:"centerDiv",
+				        	name:"pckType",
+				            kind:"StandardPicker",
+				            datasource: [
+					            {content:"Linear (Top-Down)", type:0, active:true},
+					            {content:"Linear (Right-Left)", type:1}
+					        ]
+				        },
+				        { classes:"smallgap" },
+						{
 							kind: "InputItemControl",
-							type:"number",
-							id:"txtWidth",
-							name:"txtWidth",
-							placeholder: "Enter original width (without px)",
+							id:"txtHexTop",
+							name:"txtHexTop",
+							placeholder: "Enter hex for first point (without #)",
+							maxlength:6,
 							validation:"required"
 						},
 						{ classes:"smallgap" },
 						{
 							kind: "InputItemControl",
-							type:"number",
-							id:"txtHeight",
-							name:"txtHeight",
-							placeholder: "Enter original height (without px)",
+ 							id:"txtHexBottom",
+							name:"txtHexBottom",
+							placeholder: "Enter hex for last point (without #)",
+							maxlength:6,
 							validation:"required"
 						},
 						{ classes:"smallgap" },
 						{
 							kind: "InputItemControl",
-							type:"number",
-							id:"txtIcon",
-							name:"txtIcon",
-							placeholder: "Enter icons per row",
+ 							id:"txtHexBg",
+							name:"txtHexBg",
+							placeholder: "Enter hex for background (without #)",
+							maxlength:6,
 							validation:"required"
 						},
-						{ classes:"smallgap" },
-						{
-							kind: "InputItemControl",
-							type:"number",
-							id:"txtPixel",
-							name:"txtPixel",
-							placeholder: "Enter smallest icon size (px)",
-							validation:"required"
-						}
+						{ classes:"smallgap" }
+						
 					]
 				}
 			]
 		},
 		{
 		    classes:"instructionBar",
-		    content:"Generated CSS Ratio"
+		    content:"Generated CSS Gradient"
 		},
 		{ classes:"gap" },
 		{
@@ -111,10 +114,9 @@ enyo.kind({
 		//Always start your code below this.inherited.
  	},
  	resetThis:function(inSender,inEvent) {
- 		this.$.txtWidth.setValue("");
- 		this.$.txtHeight.setValue("");
- 		this.$.txtIcon.setValue("");
- 		this.$.txtPixel.setValue("");
+ 		this.$.txtHexTop.setValue("");
+ 		this.$.txtHexBottom.setValue("");
+ 		this.$.txtHexBg.setValue("");
  		this.$.txtCode.setValue("");
  	},
  	validateThis : function(inSender,inEvent){
@@ -122,28 +124,27 @@ enyo.kind({
  		var validateUtil = new util.Validator();
  		validateUtil.validate(this.$.appForm,onSuccessValidate,onFailValidate);
  		function onSuccessValidate(results){
- 			var oWidth = parseInt( self.$.txtWidth.getValue(),10 );
- 			var oHeight = parseInt( self.$.txtHeight.getValue(),10 );
- 			var oIcons = parseInt( self.$.txtIcon.getValue(),10 );
- 			var oPixel = parseInt( self.$.txtPixel.getValue(),10 );
- 			var oRatio = (oWidth/oHeight);
- 			var maxWidth = 0;
- 			var computedRatioValue = 0;
- 			if (oHeight < oWidth) {
- 				//Height vs Pixel
- 				maxWidth = (oIcons *  oPixel);
- 				computedRatioValue = (oHeight * maxWidth) / oWidth;
- 				self.$.txtCode.setValue("");
- 				self.$.txtCode.setValue("background-size: "+maxWidth+"px "+computedRatioValue+"px !important;");
+ 			var strType = self.$.pckType.getValue();
+ 			var strHTML = "";
+ 			if (strType == 0){
+	 			strHTML = "background:#"+ self.$.txtHexTop.getValue() +" !important;\n";
+	 			strHTML += "background-image: -webkit-gradient(linear, left top, left bottom, from( #"+self.$.txtHexTop.getValue()+" ) , to( #"+self.$.txtHexBottom.getValue()+" )) !important;\n";
+	 			strHTML += "background-image: -webkit-linear-gradient( #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+") !important;\n";
+				strHTML += "background-image: -moz-linear-gradient( #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+" ) !important;\n";
+				strHTML += "background-image: -ms-linear-gradient( #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+" ) !important;\n";
+				strHTML += "background-image: -o-linear-gradient( #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+" ) !important;\n";
+				strHTML += "background-image: linear-gradient( #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+" ) !important;\n";
+	 			self.$.txtCode.setValue(strHTML);
  			} else {
- 				//Width vs Pixel
- 				computedRatioValue = (oHeight * oPixel) / oWidth;
- 				self.$.txtCode.setValue("");
- 				self.$.txtCode.setValue("background-size: "+oPixel+"px "+computedRatioValue+"px !important;");
+ 				strHTML = "background:#"+ self.$.txtHexTop.getValue() +" !important;\n";
+	 			strHTML += "background-image: -webkit-gradient(linear, left top, right top, from( #"+self.$.txtHexTop.getValue()+" ) , to( #"+self.$.txtHexBottom.getValue()+" )) !important;\n";
+	 			strHTML += "background-image: -webkit-linear-gradient( left, #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+") !important;\n";
+				strHTML += "background-image: -moz-linear-gradient( left, #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+" ) !important;\n";
+				strHTML += "background-image: -ms-linear-gradient( left, #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+" ) !important;\n";
+				strHTML += "background-image: -o-linear-gradient( left, #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+" ) !important;\n";
+				strHTML += "background-image: linear-gradient( left, #"+self.$.txtHexTop.getValue()+" , #"+self.$.txtHexBottom.getValue()+" ) !important;\n";
+	 			self.$.txtCode.setValue(strHTML);
  			}
- 			
- 			
- 			console.log(computedRatioValue+"px");
  		}
  		function onFailValidate(results){
  			self.phoneGap.alert("Please fill up the fields with valid input to proceed");

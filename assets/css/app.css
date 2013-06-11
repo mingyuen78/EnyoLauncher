@@ -42,12 +42,14 @@ button {
 	-webkit-border-radius: 0.5em !important;
 	border-radius: 0.5em !important;
 	border:2px solid #2e2e30;
+
 	background-image: -webkit-gradient(linear, left top, left bottom, from( #cf2716 ), to( #ab2519 )) !important; 
 	background-image: -webkit-linear-gradient( #cf2716 , #ab2519 ) !important; 
 	background-image:    -moz-linear-gradient( #cf2716 , #ab2519 ) !important; 
 	background-image:     -ms-linear-gradient( #cf2716 , #ab2519 ) !important; 
 	background-image:      -o-linear-gradient( #cf2716 , #ab2519 ) !important; 
 	background-image:         linear-gradient( #cf2716 , #ab2519 ) !important;
+
 	color:#fff !important;
 	text-shadow: 0px -2px 2px rgba(0,0,0,.3) !important;
 	padding:5px !important;
@@ -141,6 +143,23 @@ button:active:hover:not([disabled]){
 	width:96px !important;
   	padding-left:5px !important;
 	padding-right:5px !important;
+}
+
+.sampleButton {
+	border:2px solid #ddd !important;
+	background: #fff !important;
+	color:#333 !important;
+	font-size:1.2em !important;
+	padding:10px !important;
+	height:50px !important;
+	font-weight: bolder;
+	text-shadow: none !important;
+}
+
+.contentGenerator {
+	background: #fff;
+	height:45px;
+	padding:15px !important;
 }
 
 .menuHeader {
@@ -244,6 +263,11 @@ button:active:hover:not([disabled]){
 	border-radius: 0.5em !important;
 	padding:0px !important;
 	border:none !important;
+	height:185px;
+}
+
+.textAreaDecorator textarea {
+	height:160px;
 }
 
 .appInputForm {
@@ -331,12 +355,12 @@ button:active:hover:not([disabled]){
 	line-height:22px !important;
 	height:30px !important;
 	color:#fff;
-	background: #505358;
+	background: #888;
 	text-align: left !important;
 	font-weight: bold;
 }
 
 .onyx-menu-item.selected, .onyx-picker .onyx-menu-item.active, .onyx-picker .onyx-menu-item:active:hover {
-	background:#ddd !important;
-	color:#1c1c1d;
+	background:#1c1c1d !important;
+	color:#fff;
 }

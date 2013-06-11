@@ -12,7 +12,7 @@ enyo.kind({
         {
         	classes:"setWidth90 centerDiv",
         	name:"pckProfile",
-            kind:"StandardPicker"
+            kind:"ProfilePicker"
         },
         {
         	classes:"setWidth90 centerDiv fooBar",

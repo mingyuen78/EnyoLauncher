@@ -1,7 +1,7 @@
 enyo.kind({
 	name: "Header",
 	kind: "onyx.Toolbar",
-	title:"EnyoJS Kitchen Sink",
+	title:"App Launcher",
 	layoutKind: "FittableColumnsLayout",
 	components: [
 		{

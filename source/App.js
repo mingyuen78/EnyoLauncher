@@ -5,6 +5,7 @@ enyo.kind({
 	classes: "enyo-fit enyo-unselectable",
 	components: [
 		{ 
+			name:"headerControl",
 			kind:"Header",
 			onHeaderButtonTapped:"handleHeaderButtonTapped" 
 		},
@@ -79,15 +80,15 @@ enyo.kind({
 		}
 	},
 	setContentKind:function(kindName){
-		//var kindControl = new window[kindName]();
-    	var kindControl = { kind:window[kindName] };
+		var kindControl = { kind:window[kindName] };
     	this.$.contentControl.destroyClientControls();
     	this.$.contentControl.createComponent(kindControl);
-    	//this.$.contentControl.addControl(kindControl);
     	this.$.contentControl.render();
     	
     },
 	handleChangeContent:function(inSender,inEvent){
 		this.setContentKind(inEvent.page);
+		//console.log(inEvent);
+		this.$.headerControl.setTitle(inEvent.content);
 	}
 });

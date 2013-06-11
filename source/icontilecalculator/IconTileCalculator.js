@@ -141,8 +141,6 @@ enyo.kind({
  				self.$.txtCode.setValue("");
  				self.$.txtCode.setValue("background-size: "+oPixel+"px "+computedRatioValue+"px !important;");
  			}
- 			
- 			
  			console.log(computedRatioValue+"px");
  		}
  		function onFailValidate(results){
