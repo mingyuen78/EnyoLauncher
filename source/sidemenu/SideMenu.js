@@ -40,7 +40,7 @@ enyo.kind({
         	classes:"menuButton",
         	content:"EnyoJS Snippets",
         	page:"Snippets",
-        	disabled:true
+        	ontap:"handleButtonTapped"
         },
         {
         	kind:"Button",

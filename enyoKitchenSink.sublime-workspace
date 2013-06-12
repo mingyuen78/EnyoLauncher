@@ -536,18 +536,18 @@
 			}
 		},
 		{
-			"file": "source/App.js",
+			"file": "source/snippets/package.js",
 			"settings":
 			{
-				"buffer_size": 2358,
+				"buffer_size": 30,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "source/header/Header.js",
+			"file": "source/dashboard/Dashboard.js",
 			"settings":
 			{
-				"buffer_size": 821,
+				"buffer_size": 4469,
 				"line_ending": "Windows"
 			}
 		}
@@ -640,6 +640,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/header/Header.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/App.js",
 		"/C/Users/Alex/Desktop/index.html",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/StandardPicker.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/package.js",
@@ -650,7 +652,6 @@
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/shadowgenerator/package.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/ProfilePicker.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/gradientgenerator/package.js",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/App.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/sidemenu/SideMenu.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/Page.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/icontiler/package.js",
@@ -661,7 +662,6 @@
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/icontilecalculator/package.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/page/PanelPage.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/sidemenu/package.js",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/header/Header.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/InputItemControl.js",
 		"/C/Users/Alex/Documents/GitHub/enyoUtilityBelt/assets/css/csskit/font-awesome.min.css",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/view/LocationSelectorMenu.js",
@@ -934,7 +934,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -976,8 +976,8 @@
 						"selection":
 						[
 							[
-								156,
-								156
+								345,
+								345
 							]
 						],
 						"settings":
@@ -987,61 +987,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "source/App.js",
+					"file": "source/snippets/package.js",
 					"settings":
 					{
-						"buffer_size": 2358,
+						"buffer_size": 30,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2341,
-								2341
+								23,
+								23
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 121.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "source/header/Header.js",
+					"file": "source/dashboard/Dashboard.js",
 					"settings":
 					{
-						"buffer_size": 821,
+						"buffer_size": 4469,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								72,
-								72
+								0,
+								4469
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 162.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

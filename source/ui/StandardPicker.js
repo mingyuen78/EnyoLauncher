@@ -3,6 +3,7 @@ enyo.kind({
     name: "StandardPicker",
     kind: "Control",
     global: com.Global,
+    title:"Select A Type...",
     components: [
 		{
             kind: "onyx.PickerDecorator",
@@ -16,7 +17,7 @@ enyo.kind({
                     layoutKind: "FittableColumnsLayout",
                     components:[
  						{
- 							content:"Select a gradient type...",
+ 							content:"Select A Type...",
  							name:"labelPickerButtonControl",
                             style:"width:96%",
                             classes:"truncate"
@@ -45,10 +46,14 @@ enyo.kind({
     events: {
         onChangeItem: ""
     },
-     
+    create:function(){
+        this.inherited(arguments);
+        this.$.labelPickerButtonControl.setContent(this.title);
+    },
     rendered:function(){
     	this.inherited(arguments);
         this.datasourceChanged();
+        
     },
     datasourceChanged: function() {
         this.setupItem(this.datasource);

@@ -7,6 +7,7 @@ enyo.depends(
 	"ui",
 	"sidemenu",
 	"dashboard",
+	"snippets",
 	"shadowgenerator",
 	"gradientgenerator",
 	"icontilecalculator",
