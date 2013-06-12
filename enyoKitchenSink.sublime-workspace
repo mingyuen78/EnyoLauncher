@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"enyo",
+				"enyo.slist	myEnyoSnippet.list"
+			],
+			[
 				"str",
 				"strHTML"
 			],
@@ -118,10 +122,6 @@
 			[
 				"txtDos",
 				"txtDosageRate"
-			],
-			[
-				"enyo",
-				"enyo.layoutkind	myEnyoSnippet.layoutkind"
 			],
 			[
 				"pckDi",
@@ -531,15 +531,7 @@
 			"file": "source/sidemenu/SideMenu.js",
 			"settings":
 			{
-				"buffer_size": 1380,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/snippets/package.js",
-			"settings":
-			{
-				"buffer_size": 30,
+				"buffer_size": 1393,
 				"line_ending": "Windows"
 			}
 		},
@@ -548,6 +540,38 @@
 			"settings":
 			{
 				"buffer_size": 4469,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/snippets/Snippets.js",
+			"settings":
+			{
+				"buffer_size": 7419,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/Documents/GitHub/phis2/source/order/form/NormalDrugForm.js",
+			"settings":
+			{
+				"buffer_size": 33053,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Alex/Documents/GitHub/phis2/lib/go/component/Global.js",
+			"settings":
+			{
+				"buffer_size": 2944,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "source/ui/StandardPicker.js",
+			"settings":
+			{
+				"buffer_size": 4018,
 				"line_ending": "Windows"
 			}
 		}
@@ -640,14 +664,16 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/app.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/snippets/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/snippets/Snippets.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/header/Header.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/App.js",
 		"/C/Users/Alex/Desktop/index.html",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/StandardPicker.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/package.js",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/app.css",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/icontilecalculator/IconTileCalculator.js",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/package.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/dashboard/Dashboard.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/shadowgenerator/package.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/ProfilePicker.js",
@@ -765,9 +791,7 @@
 		"/C/Users/Alex/Documents/GitHub/phis2/source/outpatient/page/ClinicSelectorPage.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/page/LocationSelectorPage.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/assets/settings/settings.cmg.json",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DosageSchedulePopupButton.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/common/popup/ContextPopup.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/SelectorPopupButton.js"
+		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DosageSchedulePopupButton.js"
 	],
 	"find":
 	{
@@ -786,6 +810,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"labelPickerButtonControl",
+			"menu",
 			"sample",
 			"textAreaDecorator",
 			"padding",
@@ -911,9 +937,7 @@
 			"autoLock",
 			".onyx-input",
 			"appInputForm",
-			"formLabels",
-			"trayInputForm",
-			"header"
+			"formLabels"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -934,7 +958,6 @@
 	"groups":
 	[
 		{
-			"selected": 3,
 			"sheets":
 			[
 				{
@@ -949,8 +972,8 @@
 						"selection":
 						[
 							[
-								2575,
-								2563
+								2711,
+								2711
 							]
 						],
 						"settings":
@@ -969,15 +992,15 @@
 					"file": "source/sidemenu/SideMenu.js",
 					"settings":
 					{
-						"buffer_size": 1380,
+						"buffer_size": 1393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								345,
-								345
+								1073,
+								1073
 							]
 						],
 						"settings":
@@ -987,39 +1010,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 150.0,
+						"translation.y": 528.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "source/snippets/package.js",
-					"settings":
-					{
-						"buffer_size": 30,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23,
-								23
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
 					"file": "source/dashboard/Dashboard.js",
 					"settings":
 					{
@@ -1030,8 +1027,8 @@
 						"selection":
 						[
 							[
-								0,
-								4469
+								380,
+								380
 							]
 						],
 						"settings":
@@ -1042,6 +1039,117 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 162.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "source/snippets/Snippets.js",
+					"settings":
+					{
+						"buffer_size": 7419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7038,
+								7038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4814.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Alex/Documents/GitHub/phis2/source/order/form/NormalDrugForm.js",
+					"settings":
+					{
+						"buffer_size": 33053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14398,
+								14398
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 7992.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Alex/Documents/GitHub/phis2/lib/go/component/Global.js",
+					"settings":
+					{
+						"buffer_size": 2944,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "source/ui/StandardPicker.js",
+					"settings":
+					{
+						"buffer_size": 4018,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1618,
+								1642
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 837.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
