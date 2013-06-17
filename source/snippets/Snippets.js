@@ -26,6 +26,7 @@ enyo.kind({
                             datasource: [
                                 {content:"Enyo Component", type:0},
                                 {content:"Static Kind", type:1},
+                                {content:"Package", type:11},
                                 {content:"List", type:2},
                                 {content:"Repeater", type:3},
                                 {content:"Scroller", type:4},
@@ -200,6 +201,14 @@ enyo.kind({
 
             case 10:
                 strHTML += '{ kind:"onyx.ToggleButton", onContent:"Yes", offContent:"No", value: false }';
+                return strHTML;
+            break;
+
+            case 11:
+                strHTML += 'enyo.depends(\n';
+                strHTML += '    "File1.js",\n';
+                strHTML += '    "File2.js"\n';
+                strHTML += ');\n';
                 return strHTML;
             break;
         }
