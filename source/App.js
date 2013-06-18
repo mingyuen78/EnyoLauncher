@@ -47,7 +47,7 @@ enyo.kind({
 	create: function(inSender,inEvent){
 		this.inherited(arguments);
 		var self = this;
-		this.$.panelControl.setIndex(1);
+		
 		this.resolution = this.global.getLocal("ENYO.KITCHENSINK.RESOLUTION");
 		if (this.resolution == null){
 			this.grappler = new util.Grappler(); 
@@ -55,6 +55,7 @@ enyo.kind({
 			function onSuccess(inSender,inResponse){
 				console.log("Storing Settings...");
 				self.global.storeLocal("ENYO.KITCHENSINK.RESOLUTION",inResponse);
+				this.$.panelControl.setIndex(1);
 			}
 			function onFail(error){
 				console.log("Setttings file is missing or corrupted...");	
