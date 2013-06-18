@@ -39,7 +39,9 @@ enyo.kind({
     },
     refreshList:function(){
     	this.datasource = this.global.getLocal("ENYO.KITCHENSINK.RESOLUTION");
-    	this.$.repeater.setCount(this.datasource.length);
+    	if (this.datasource != null){
+    		this.$.repeater.setCount(this.datasource.length);
+    	}
     },
     setupItem:function(inSender,inEvent) {
     	inEvent.item.$.itemRepeater.setContent(this.datasource[inEvent.index].name);
