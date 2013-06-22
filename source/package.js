@@ -6,6 +6,7 @@ enyo.depends(
 	"$lib/taffy-min.js",
 	"ui",
 	"sidemenu",
+	"misc",
 	"dashboard",
 	"snippets",
 	"shadowgenerator",

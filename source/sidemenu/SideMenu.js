@@ -36,6 +36,13 @@ enyo.kind({
             ontap:"handleButtonTapped"
         },
         {
+            kind:"Button",
+            classes:"menuButton",
+            content:"Misc Tools",
+            page:"Misc",
+            ontap:"handleButtonTapped"
+        },
+        {
         	kind:"Button",
         	classes:"menuButton",
         	content:"EnyoJS Snippets",
