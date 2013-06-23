@@ -5,7 +5,11 @@
 		[
 			[
 				"txt",
-				"txtCharCount"
+				"txtAlignCenter"
+			],
+			[
+				"generate",
+				"generateTopRadius"
 			],
 			[
 				"enyo",
@@ -510,10 +514,6 @@
 			[
 				"size",
 				"sizeID"
-			],
-			[
-				"qu",
-				"quantityControl"
 			]
 		]
 	},
@@ -524,23 +524,6 @@
 			"settings":
 			{
 				"buffer_size": 27,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "source/misc/Misc.js",
-			"settings":
-			{
-				"buffer_size": 3371,
-				"line_ending": "Windows",
-				"name": "enyo.kind({"
-			}
-		},
-		{
-			"file": "source/shadowgenerator/ShadowGenerator.js",
-			"settings":
-			{
-				"buffer_size": 5091,
 				"line_ending": "Windows"
 			}
 		}
@@ -633,21 +616,25 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/sidemenu/SideMenu.js",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/misc/Misc.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/radius/package.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/shadowgenerator/ShadowGenerator.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/radius/Radius.js",
+		"/C/Users/Alex/Documents/GitHub/phis2/assets/css/app.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/sidemenu/SideMenu.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/app.css",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/package.js",
+		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/icontilecalculator/IconTileCalculator.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/dashboard/Dashboard.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/snippets/Snippets.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/order/form/NormalDrugForm.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/StandardPicker.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/lib/go/component/Global.js",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/assets/css/app.css",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/snippets/package.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/header/Header.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/App.js",
 		"/C/Users/Alex/Desktop/index.html",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/package.js",
-		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/icontilecalculator/IconTileCalculator.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/shadowgenerator/package.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/ProfilePicker.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/gradientgenerator/package.js",
@@ -666,7 +653,6 @@
 		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/view/package.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DemographicBox.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/DemographicColumnBox.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/assets/css/app.css",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/patient/page/PatientListPage.js",
 		"/C/Users/Alex/Documents/GitHub/EnyoLauncher/source/ui/RepeaterList.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/common/ui/SearchableList.js",
@@ -757,10 +743,7 @@
 		"/C/Users/Alex/Documents/GitHub/phis2/source/login/page/package.js",
 		"//192.168.0.77/eios/phis2/source/common/ui/PageScrollView.js",
 		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/page/DashboardPage.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/view/DashboardSelectorMenu.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/outpatient/page/OutPatientListPage.js",
-		"/C/Users/Alex/Documents/GitHub/phis2/assets/settings/settings.json",
-		"/C/Users/Alex/Documents/GitHub/phis2/source/outpatient/page/ClinicSelectorPage.js"
+		"/C/Users/Alex/Documents/GitHub/phis2/source/mainmenu/view/DashboardSelectorMenu.js"
 	],
 	"find":
 	{
@@ -779,6 +762,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"radius",
+			"pck",
 			"labelPickerButtonControl",
 			"menu",
 			"sample",
@@ -904,9 +889,7 @@
 			"txtDrugName",
 			"formButton",
 			"autoLock",
-			".onyx-input",
-			"appInputForm",
-			"formLabels"
+			".onyx-input"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -927,7 +910,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -952,61 +935,6 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "source/misc/Misc.js",
-					"settings":
-					{
-						"buffer_size": 3371,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2745,
-								2745
-							]
-						],
-						"settings":
-						{
-							"auto_name": "enyo.kind({",
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2384.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "source/shadowgenerator/ShadowGenerator.js",
-					"settings":
-					{
-						"buffer_size": 5091,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2913,
-								2913
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2278.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
