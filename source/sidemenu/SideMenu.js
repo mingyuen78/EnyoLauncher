@@ -38,6 +38,13 @@ enyo.kind({
         {
             kind:"Button",
             classes:"menuButton",
+            content:"Radius Generator",
+            page:"Radius",
+            ontap:"handleButtonTapped"
+        },
+        {
+            kind:"Button",
+            classes:"menuButton",
             content:"Misc Tools",
             page:"Misc",
             ontap:"handleButtonTapped"

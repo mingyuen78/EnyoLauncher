@@ -9,6 +9,7 @@ enyo.depends(
 	"misc",
 	"dashboard",
 	"snippets",
+	"radius",
 	"shadowgenerator",
 	"gradientgenerator",
 	"icontilecalculator",
