@@ -124,7 +124,7 @@ enyo.kind({
  		var validateUtil = new util.Validator();
  		validateUtil.validate(this.$.appForm,onSuccessValidate,onFailValidate);
  		function onSuccessValidate(results){
- 			var strType = self.$.pckType.getValue();
+ 			var strType = self.$.pckType.getSelected().type;
  			var strHTML = "";
  			if (strType == 0){
 	 			strHTML = "background:#"+ self.$.txtHexTop.getValue() +" !important;\n";
